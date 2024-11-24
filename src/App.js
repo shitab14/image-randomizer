@@ -24,7 +24,7 @@ const HomePage = () => {
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/image-randomizer">
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/randomize-images" element={<RandomizeImagesPage />} />
